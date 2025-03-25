@@ -1,0 +1,1797 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+.heder{
+height: 145px;
+align-content: center;
+align-self: stretch;
+background: #FFF;
+}
+
+.logo{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 96px;
+    top: 27px;
+}
+
+.lista{
+display: flex;
+align-items: center;
+gap: 23px;
+position: absolute;
+width: 718px;
+height: 38px;
+top: 58px; 
+}
+
+.nav-link{
+    color: #16161d;
+    font-family: "Wix Madefor Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+}
+
+.strelica{
+    width: 12px; 
+    height: 12px; 
+}
+
+/*PRVI BLOK */
+
+.prviblok{
+    height: fit-content;
+        align-self: stretch;
+        background: #FFFFFF;  
+}
+
+.row{
+    height: 100%; 
+    display: flex;
+  }
+
+.lijevi{
+    height: 100%; 
+    position: relative;
+    display: flex;
+    justify-content: left;
+}
+
+.desni{
+    height: 100%; 
+    position: relative;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.nene{
+    display: flex;
+    flex-direction: column;
+    padding-top: 156px;
+    height: 100%; 
+    position: relative;
+    align-items: center;
+}
+
+.proba{
+    top: 127.29px;
+    position: relative;
+    left: -15px;
+    width: 306px;
+    height: 408.712px;
+    background-image: url("/Users/Korisnik/Desktop/projekat/img/davidim.png");
+    border-radius: 0px 30px 30px 0px;
+}
+
+.lijevaslika{
+width: 100%;
+height: 459px;
+top: -50.29px;
+border-radius: 0px 0px 30px 0px;
+flex-shrink: 0;
+aspect-ratio: 2/3;
+position: absolute;
+}
+
+.proba1{
+    top: 127.03px;
+    position: relative;
+    right: -12px;
+    width: 306px;
+    height: 408.712px;
+    background-image: url("/Users/Korisnik/Desktop/projekat/img/davidim2.png");
+    border-radius: 30px 0px 0px 30px;
+}
+
+.desnaslika{
+    width: 306px;
+    height: 517px;
+    top: -108.03px;
+    border-radius: 0px 0px 0px 30px;
+    flex-shrink: 0;
+    aspect-ratio: 2/3;
+    position: absolute;
+    
+}
+
+.prvifrejm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 622px;
+    height: 150px;  
+}
+
+.tekst{
+    width: 622px; 
+    height: 77px;   
+    font-family: 'Wix Madefor Display', sans-serif; 
+    font-style: normal;
+    font-weight: 800; 
+    font-size: 74px; 
+    line-height: 77px; 
+    text-align: center; 
+    letter-spacing: -0.01em; 
+    color: #16161D;      
+    flex-shrink: 0;
+    align-self: stretch;  
+}
+
+.boja{
+background: linear-gradient(89.03deg, #FF9532 9.32%, #FE5A69 19.94%, #EF4FB5 31.33%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.paragraf{
+    width: 488px; 
+    height: 58px; 
+    font-family: 'Lexend', sans-serif; 
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 26px; 
+    text-align: center; 
+    color: #16161D;         
+}
+
+.drugifrejm{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 712px;
+    height: 103px;
+    background: #f5f5f4;
+    border-radius: 16px 16px 8px 8px;
+  }
+
+  .search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 712px;
+    height: 53px;
+    align-self: stretch;
+  }
+
+  .forma{
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid var(--Linear, #FF9532);
+    border-bottom: 1px solid var(--Linear, #FF9532);
+    border-left: 1px solid var(--Linear, #FF9532);
+    background: #FFF;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 439px;
+    height: 53px;
+    background: #FFFFFF;
+    border-right: 0px;
+  }
+
+  .me-tekst{
+   font-family: 'Sloth';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #16161D;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 78px;
+   height: 53px;
+   background: #F5F5F5;
+   border-top: 1px solid var(--Linear, #FF9532);
+   border-bottom: 1px solid var(--Linear, #FF9532);
+   
+  }
+
+  .poljecrveno{
+    border: none;
+    font-family: 'Wix Madefor Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 195px;
+    height: 53px;
+    background: #F91567;
+    border-radius: 0px 8px 8px 0px;
+  }
+
+    .da{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    width: 237px;
+    height: 18px;
+    margin-top: 15px;
+    }
+
+    .A1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 96px;
+    height: 18px;
+    }
+
+    .A2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+    width: 107px;
+    height: 18px;
+    }
+         
+          
+    .a1{
+    width: 74px;
+    height: 14px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #16161D;
+    }
+    
+    .lego{
+    width: 18px;
+    height: 18px;
+    }
+    
+    .a2{
+    width: 87px;
+    height: 14px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #16161D;
+    }
+
+
+/*DRUGI BLOK*/
+
+.prvikontejner{
+    padding-top: 63px;
+    padding-bottom: 94.98px;
+}
+
+.drugiblok{
+    height: 844px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.kontejner{
+    height: 715.02px;
+    width: 1245px;
+    padding-top: 63px;
+}    
+
+.meisfor{
+margin-bottom: 29px;
+font-family: 'Wix Madefor Display';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 68px;
+text-align: start;
+letter-spacing: -0.62px;
+}
+
+.boja2{
+background: linear-gradient(89.03deg, #FF9532 9.32%, #FE5A69 19.94%, #EF4FB5 31.33%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.velikired{
+    row-gap: 36px;
+}
+
+.rowaa{
+    margin-left: 8px;
+    height: 589.02px;
+    width: 1245px;
+    display: flex;
+    gap: 36.434px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.rowaaa{
+    display: flex;
+    align-items: flex-end;
+    gap: 46.555px;
+    align-self: stretch;
+    height: 276.293px;
+    width: 1245px;
+}
+
+.rowaab{
+    display: flex;
+    align-items: center;
+    gap: 46.555px;
+    align-self: stretch;
+    height: 276.293px;
+    width: 1245px;
+}
+
+.prvikontejner .velikired  .col-md-3 > div {
+    background-size: cover;
+    height: 276px;
+    position: relative;
+    border-radius: 30px;
+}
+.prvikontejner .velikired  .col-md-3 > div > img:first-of-type {
+    height: auto;
+    max-height: 90%;;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 0px 0px 30px 0px;
+    object-fit: cover;
+    
+}
+
+.prva{
+    background-image: url("../img/prvakolonalayer.png");
+}
+
+.druga{
+    background-image: url("../img/drugakolonakonacno.png");
+}
+
+.treca{
+    background-image: url("../img/trecakolonalayer.png");
+}
+
+.cetvrta{
+    background-image: url("../img/cetvrtakolonalayer.png");
+}
+
+.peta{
+    background-image: url("../img/petakolonalayer.png");
+}
+
+.sesta{
+    background-image: url("../img/prvakolonalayer.png"); 
+}
+
+.sedma{
+    background-image: url("../img/sedmakolonalayer.png");
+}
+
+.osma{
+    background-image: url("../img/osmaslikalayer.png");
+}
+
+
+.strijela{
+width: 19.293px;
+height: 19.317px;
+position: absolute;
+left: 6.22%;
+right: 79.57%;
+top: 85.93%;
+bottom: 7%;
+transform: rotate(0deg);
+}
+
+.tekst1{
+position: absolute;
+left: 6.22%;
+right: 57.18%;
+top: 6.59%;
+bottom: 82.43%;
+font-family: 'Wix Madefor Text';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+color: #16161D;
+}
+
+.prvapozadina{
+position: absolute;
+right: 0%;
+bottom: 0%;
+border-radius: 16.1931px;
+width: 269.845px;
+height: 269.794px;
+}
+
+
+/*TRECI BLOK*/
+
+.drugikontejner{
+    padding-top: 76px;
+    padding-bottom: 50px;
+}
+
+.treciblok{
+    height: 759px;
+    align-self: stretch;
+    background: #FFF;
+    display: flex;
+    justify-content: center; 
+}
+
+.kontejner2{
+    width: 1215px;
+    height: 664.97px;
+    margin-top: 76px;
+}
+
+.novi{
+text-align: start;
+color: #16161D;
+font-family: "Wix Madefor Display";
+font-size: 62px;
+font-style: normal;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: -0.62px;
+padding-bottom: 59px;
+}
+
+.klasa1{
+    gap: 69px;
+}
+
+.klasa{
+    width: 1215px;
+    height: 605.97px;
+    display: flex;
+    gap: 69px;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 59px;
+}
+
+.jedanjedan{
+    gap: 100px;
+}
+
+.dvadva{
+    gap: 100px;
+}
+
+.jedan{
+    width: 1215px;
+    height: 220.41px;
+    gap: 47px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.dva{
+    width: 1215px;
+    height: 220.41px;
+    gap: 51px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    
+}
+
+.prvakol{
+height: 220px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 14px;
+}
+
+.drugakol{
+height: 220.41px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 13px;
+}
+
+.trecakol{
+height: 218px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+padding-left: 4px;
+}
+
+.cetvrtakol{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.petakol{
+    height: 220.41px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.sestakol{
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.lopta{
+width: 80px;
+height: 80px;
+flex-shrink: 0;
+}
+
+.malamunja{
+    height: 85px;
+}
+
+.munja{
+width: 70px;
+height: 85px;
+flex-shrink: 0;
+stroke-width: 3.205px;
+stroke: #FF9432;
+}
+
+.cojek{
+width: 70px;
+height: 85px;
+flex-shrink: 0;
+}
+
+.korpa{
+    width: 75px;
+    height: 85px;
+    flex-shrink: 0;
+}
+
+.monokl{
+width: 83px;
+height: 83px;
+flex-shrink: 0;
+}
+
+.stit{
+width: 73px;
+height: 83px;
+flex-shrink: 0;
+stroke-width: 3.864px;
+stroke: #FF9432;
+}
+
+.grupa1{
+    align-self: stretch;
+    width: 370px;
+    height: 142px;
+}
+
+.naslov1{
+color: #16161D;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Wix Madefor Text";
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: 38px; 
+letter-spacing: -1px;
+}
+
+.paragraf1{
+    color: #16161D;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+.paragraf2{
+color: #16161D;
+font-family: Lexend;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding-top: 8px;
+}
+
+.paragraf3{
+    color: #16161D;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+.paragraf4{
+    color: #16161D;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+.paragraf5{
+    color: #16161D;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+.paragraf6{
+    color: #16161D;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+/*cetvrti blok*/
+
+.trecikontejner{
+    padding-top: 141px;
+    padding-bottom: 116px;
+}
+
+.cetvrtiblok{
+height: 383px;
+align-self: stretch;
+background: #FFF;
+justify-content: center;
+display: flex;
+
+}
+
+.kontejner3{
+    width: 1440px;
+    height: 383px;
+    align-items: flex-start;
+}
+
+.kratko{
+    gap: 180px;
+}
+
+.opetfrejm1{
+    height: 126px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.opetfrejm2{
+    height: 103px;
+    padding-top: 25px;
+}
+
+.tekstdva{
+    color: #16161D;
+    align-self: stretch;
+    width: 395px;
+    height: 68px;
+    font-family: "Wix Madefor Display";
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; 
+    letter-spacing: -0.62px;
+}
+
+.paragraf2{
+width: 395px; 
+height: 52px; 
+color: #16161D;
+align-self: stretch;
+font-family: Lexend;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;     
+}
+
+/*peti blok*/
+
+.cetvrtikontejner{
+    padding-top: 74px;
+    padding-bottom: 77px;
+}
+
+.petiblok{
+    height: 985px;
+    background: #FFF;
+    align-self: stretch;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontejner5{
+    height: 782px;
+    width: 1440px;
+    padding-top: 74px;
+    padding-left: 115px;
+}
+
+.red{
+    gap: 35px;
+}
+
+.hed{
+padding-bottom: 36px;
+justify-content: flex-start;
+color: #16161D;
+font-family: "Wix Madefor Display";
+font-size: 62px;
+font-style: normal;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: -0.62px;
+}
+
+.flajeri{
+    gap: 112px;
+}
+
+.malitekst{
+    display: flex;
+    align-content: flex-end;
+}
+
+.dali{
+    display: flex;
+    justify-content: right;
+    color: #F91567;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; 
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.br1{
+    display: flex;
+    height: 454px;
+    flex-direction: column;
+}
+
+.br2{
+    height: 454px;
+    flex-direction: column;
+    display: flex;
+}
+
+.br3{
+    height: 454px;
+    flex-direction: column;
+    display: flex;
+}
+
+.posao{
+width: 398px;
+height: 212px;
+flex-shrink: 0;
+align-self: stretch;
+aspect-ratio: 199/106;
+border-radius: 20px 20px 0px 0px;
+}
+
+.plava{
+    width: 398px;
+    height: 242px;
+    border-radius: 0px 0px 20px 20px;
+    background: url('/Users/Korisnik/Desktop/projekat/img/pokusaj.png')
+}
+
+.flajer1red{
+height: 220px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+margin-top: 13px;
+padding-left: 16px;
+}
+
+.flajer1red1{
+    height: 34px;
+}
+
+.flajer1red2{
+    height: 96px;
+}
+
+.flajer1red3{
+    height: 78px;
+}
+
+.flajer1tekst1{
+display: flex;
+align-content: flex-start;
+color: #16161D;
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Wix Madefor Text";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; 
+}
+
+.flajer1tekst2{
+align-self: stretch;
+color: #16161D;
+font-family: "Wix Madefor Text";
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+letter-spacing: -0.28px;
+}
+
+.flajer1tekst3{
+color: #16161D;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Wix Madefor Text";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 78px; 
+}
+
+.znak{
+    color: #16161D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px;
+}
+
+.kofer{
+width: 400px;
+height: 212px;
+flex-shrink: 0;
+align-self: stretch;
+aspect-ratio: 100/53;
+border-radius: 20px 20px 0px 0px;
+}
+
+.zelena{
+        width: 400px;
+        height: 242px;
+        border-radius: 0px 0px 20px 20px;
+        background: url('/Users/Korisnik/Desktop/projekat/img/zelena2.png')
+}
+
+.flajer2red{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-top: 13px;
+    padding-left: 16px;
+}
+
+.flajer2red1{
+    height: 34px;
+}
+
+.flajer2red2{
+    height: 96px;
+    align-self: stretch;
+}
+
+.flajer2red3{
+    height: 78px;
+}
+
+.flajer2tekst1{
+color: #16161D;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Wix Madefor Text";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; 
+}
+    
+    .flajer2tekst2{
+        color: #16161D;
+        font-family: "Wix Madefor Text";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; 
+        letter-spacing: -0.28px;
+        
+    }
+    
+    .flajer2tekst3{
+        color: #16161D;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: "Wix Madefor Text";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 78px; 
+    }
+
+
+.trotinet{
+width: 400px;
+height: 212px;
+flex-shrink: 0;
+align-self: stretch;
+aspect-ratio: 100/53;
+border-radius: 20px 20px 0px 0px;
+}
+
+.zuta{
+        width: 400px;
+        height: 242px;
+        border-radius: 0px 0px 20px 20px;
+        background: url('/Users/Korisnik/Desktop/projekat/img/narandzasta2.png')
+}
+
+.flajer3red{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-top: 13px;
+    padding-left: 16px;
+}
+
+.flajer3red1{
+    height: 34px;
+}
+
+.flajer3red2{
+    height: 96px;
+}
+
+.flajer3red3{
+    height: 78px;
+}
+
+.flajer3tekst1{
+    color: #16161D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Wix Madefor Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; 
+    }
+        
+        .flajer3tekst2{
+            color: #16161D;
+            font-family: "Wix Madefor Text";
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px; 
+            letter-spacing: -0.28px;
+            
+        }
+        
+        .flajer3tekst3{
+            color: #16161D;
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-family: "Wix Madefor Text";
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 78px; 
+        }
+
+
+        /*futer*/
+        .zadnjidiv, .futer{
+            display: none;
+        }
+.zadnjidiv,{
+    height: 203px;
+}
+
+.zadnjired{
+    gap: 35px;
+    padding-left: 8px;
+    height: 308px;
+    padding-top: 50px;
+}
+
+.zadnjakolona1{
+width: 290.858px;
+height: 308px;
+display: flex;
+padding-top: 13.113px;
+padding-bottom: 13.113px;
+padding-left: 17.484px;
+padding-right: 17.484px;
+flex-direction: column;
+align-items: flex-end;
+gap: 12.02px;
+flex-shrink: 0;
+border-radius: 17.484px;
+background: #FFF;
+box-shadow: 0px 4px 17.1px 0px rgba(210, 210, 210, 0.25);
+}
+
+.kolona1pozadina{
+border-radius: 20.129px;
+background-image: url('/Users/Korisnik/Desktop/projekat/img/pokusaj1.png');
+display: flex;
+align-self: stretch;
+height: 171.256px;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+}
+
+.kolona2pozadina{
+    display: flex;
+    border-radius: 20.129px;
+    background-image: url('/Users/Korisnik/Desktop/projekat/img/kolona2pozadina.png');
+    align-self: stretch;
+    height: 171.256px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+    
+.kolona3pozadina{
+    display: flex;
+    border-radius: 20.129px;
+    background-image: url('/Users/Korisnik/Desktop/projekat/img/pokusaj2.png');
+    align-self: stretch;
+    height: 171.256px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+    
+.kolona4pozadina{
+    display: flex;
+    border-radius: 20.129px;
+    background-image: url('/Users/Korisnik/Desktop/projekat/img/kolona4pozadina.png');
+    align-self: stretch;
+    height: 171.256px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+
+.kolona1tekst1{
+width: 133.63px;
+height: 55px;
+color: #26262B;
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: "Wix Madefor Display";
+font-size: 25.393px;
+font-style: normal;
+font-weight: 600;
+line-height: 27.319px; /* 107.583% */
+}
+    
+.boldovano1{
+color: #26262B;
+font-family: "Wix Madefor Display";
+font-size: 25.393px;
+font-style: normal;
+font-weight: 800;
+line-height: 27.319px;
+}
+
+.kolona2tekst1{
+padding-top: 63.4px;
+height: 63px;
+width: 200.152px;
+color: #26262B;
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: "Wix Madefor Display";
+font-size: 25.393px;
+font-style: normal;
+font-weight: 600;
+line-height: 31.199px; /* 122.866% */
+}
+
+.boldovano2{
+color: #26262B;
+font-family: "Wix Madefor Display";
+font-size: 25.393px;
+font-style: normal;
+font-weight: 800;
+line-height: 31.199px;
+}
+
+.kanal1drugidio{
+height: 99.69331px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+gap: 16.39px;
+}
+
+.kanal1drugidioprvitekst{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+height: 36px;
+}
+
+.drugidioprvitekst1{
+align-self: stretch;
+color: #16161D;
+font-family: Lexend;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.kanal1drugidiookvir{
+display: flex;
+width: 128.823px;
+height: 47.302px;
+padding: 8.051px;
+justify-content: center;
+align-items: center;
+border-radius: 8.051px;
+border: 1.006px solid #000;
+}
+
+.okvir{
+color: #000;
+text-align: center;
+font-family: "Wix Madefor Text";
+font-size: 16.103px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.drugidioprvitekst4{
+align-self: stretch;
+color: #16161D;
+font-family: Lexend;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+
+
+.futer{
+height: 624px;
+background: #F5F5F5;
+}
+
+.malifuter{
+    height: 624px;
+    width: 1440px;
+}
+
+.predzadnjirow{
+   height: 245px;
+   gap: 238px;
+   padding-top: 198px;
+}
+
+.kolona1predzadnja{
+    width: 494px;
+}
+
+.kolona2predzadnja{
+    display: flex;
+    flex-direction: row;
+    width: 554px;
+    gap: 76px;
+    padding-top: 49px;
+}
+
+.malifrejm{
+    padding-top: 25px;
+}
+
+.prvidiv{
+width: 454px;
+height: 63px;
+color: #16161D;
+font-family: "Wix Madefor Text";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+
+.drugidiv{
+    padding-top: 9px;
+    width: 494px;
+    height: 47px;
+    flex-direction: row;
+    display: flex;
+    gap: 17px;
+}
+
+.plejsholder{
+display: flex;
+align-items: center;
+width: 312px;
+height: 47px;
+padding: 8px 8px 8px 16px;
+border-radius: 8px;
+border: 1px solid var(--zalazak-sunca, #F8CFFF);
+background: #FFF;
+color: #8E8CA8;
+font-family: "Wix Madefor Text";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.polje{
+justify-content: center;
+align-items: center;
+display: flex;
+width: 165px;
+height: 47px;
+padding: 8px;
+border-radius: 8px;
+background: #F91567;
+color: #FFF;
+font-family: "Wix Madefor Text";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.2px;
+}
+
+.kolona2predzadnjakolona1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 134px;
+}
+
+.futer .malifuter .predzadnjirow .kolona2predzadnja .kolona2predzadnjakolona1 > span{
+    align-self: stretch;
+    color: #16161D;
+    font-family: "Wix Madefor Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+} 
+
+.zadnjirow{
+   height: 28px;
+   padding-top: 330px;
+   width: 1233px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.zadnjakolona11{
+width: 270px;
+color: #16161D;
+font-family: "Wix Madefor Text";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+}
+
+.zadnjakolona2{
+    margin-left: 177px;
+    width: 356px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+}
+
+.zadnjitekst{
+color: #16161D;
+font-family: "Wix Madefor Text";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+}
+
+.zadnjakolona3{
+    margin-left: 141px;
+    width: 289px;
+    gap: 26px;
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+}
+
+
+
+
+
+/*dodatno za heder*/
+    .heder .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    	     background-image: url("../img/telefonmenifols.svg");
+             width: 36px;
+             height: 26px;
+    }
+
+    
+    .heder .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+        background-image: url("../img/telefonmeni.svg");
+        width: 36px;
+        height: 26px;
+    }
+
+.heder .navbar-toggler,
+.heder .navbar-toggler:focus {
+    box-shadow: none;
+    border: none; 
+}
+
+    .heder .navbar-nav .nav-item .nav-link{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;  
+    }
+    
+    .heder .dropdown-toggle {
+    position: relative;
+    padding-right: 17px !important;
+    
+    }
+    
+    .heder .dropdown-toggle::after{
+    position: absolute;
+        content: "";
+        width: 12px;
+        height: 8px;
+        top: calc(50% - 4px);
+        border: none;
+        background-image: url("../img/Vector.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .heder .navbar-nav .nav-item:not(:last-of-type){
+    margin-right: 23px;
+    }
+
+
+
+
+/* mobilni*/
+
+@media (max-width: 991px) { 
+
+    /*heder */
+
+    .nav-item{
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: white;
+    }
+    
+    .zadnjinav{
+        border: none;
+    }
+    
+    .navbar-collapse{
+        padding: 0 24px 24px 24px;
+        margin-left: -24px;
+        min-width: 100vw;
+        background-color: white;
+        z-index: 1;
+        text-align: right
+       }
+
+    .heder .navbar-nav .nav-item:not(:last-of-type){
+        margin-right: 0;
+    }
+    
+    .hedertelefonlogo{
+        width: 59px;
+        height: 59px;
+    }
+
+    .meni{
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    right: 19px;
+    }
+
+
+
+    /*prvi blok*/ 
+
+
+    .prviblok{
+        height: fit-content;
+        align-self: stretch;
+        background: #FFFFFF; 
+    }
+
+    .lijevi{
+        order: 1;
+        padding-left: 0;
+    }
+    .desni{
+        order: 2;
+        padding-right: 0;
+    }
+    .nene{
+        order: 3;
+        padding-top: 30px;
+    }
+
+    .proba{
+        width: 100%;
+        height: 220px;
+        top: 0;
+        left: 0;
+        position: relative;
+        
+        background-image: url("/Users/Korisnik/Desktop/projekat/img/davidim.png");
+        border-radius: 0px 30px 30px 0px;
+    }
+    
+    .lijevaslika{
+    width: 100%;
+    left: 0;
+    height: 258px;
+    top: -38.69px;
+    border-radius: 0px 0px 30px 0px;
+    flex-shrink: 0;
+    right: 0;
+    position: absolute;
+    }
+    
+    .proba1{
+        width: 100%;
+        height: 220px;
+        flex-shrink: 0;
+        top: 0;
+        right: 0;
+        position: relative;
+          
+        background-image: url("../img/davidim2.png");
+        border-radius: 30px 0px 0px 30px;
+    }
+    
+    .desnaslika{
+        width: 100%;
+        right: 0;
+        height: 276px;
+        flex-shrink: 0;
+        top: -50px;
+        border-radius: 0px 0px 0px 30px;
+        position: absolute;
+    }
+
+
+
+
+    .nene{
+        display: flex;
+        flex-direction: column;
+        height: 100%; 
+        position: relative;
+        align-items: center;
+    }
+
+
+    .prvifrejm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        width: 361px;
+        height: 113px;  
+    }
+    
+    .tekst{
+        width: 361px; 
+        height: 35px;   
+        font-family: 'Wix Madefor Display', sans-serif; 
+        font-style: normal;
+        font-weight: 800; 
+        font-size: 46px; 
+        line-height: 103%; 
+        text-align: center; 
+        letter-spacing: -0.01em; 
+        color: #16161D;      
+        flex-shrink: 0;
+        align-self: stretch;  
+    }
+    
+    .boja{
+    background: linear-gradient(89.03deg, #FF9532 9.32%, #FE5A69 19.94%, #EF4FB5 31.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    }
+    
+    .paragraf{
+        width: 361px; 
+        height: 44px; 
+        font-family: 'Lexend', sans-serif; 
+        font-style: normal;
+        font-weight: 400; 
+        font-size: 16px; 
+        line-height: 22px; 
+        text-align: center; 
+        color: #16161D; 
+    }
+    
+
+
+    .drugifrejm{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 357px;
+        height: 94px;
+        background: #f5f5f4;
+        border-radius: 16px 16px 8px 8px;
+      }
+    
+      .search{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        width: 357px;
+        height: 53px;
+        align-self: stretch;  
+      }
+    
+      .forma{
+        border-radius: 8px 0px 0px 8px;
+        border-top: 1px solid var(--Linear, #FF9532);
+        border-bottom: 1px solid var(--Linear, #FF9532);
+        border-left: 1px solid var(--Linear, #FF9532);
+        background: #FFF;  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        gap: 8px;
+        width: 227px;
+        height: 53px;
+        background: #FFFFFF;
+        border-right: 0px;       
+      }
+    
+      .me-tekst{
+       font-family: 'Sloth';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: normal;
+       color: #16161D;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       width: 43px;
+       height: 53px;
+       background: #F5F5F5;
+       border-top: 1px solid var(--Linear, #FF9532);
+       border-bottom: 1px solid var(--Linear, #FF9532);
+      }
+    
+      .poljecrveno{
+        border: none;
+        font-family: 'Wix Madefor Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        gap: 8px;
+        width: 87px;
+        height: 53px;
+        background: #F91567;
+        border-radius: 0px 8px 8px 0px;
+      }
+    
+        .da{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;
+        width: 234px;
+        height: 18px;
+        margin-top: 15px;
+        }
+    
+
+
+        
+        .A1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 4px;
+        width: 96px;
+        height: 18px;
+        }
+    
+        .A2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 2px;
+        width: 107px;
+        height: 18px;
+        }
+             
+              
+        .a1{
+        width: 74px;
+        height: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #16161D;
+        }
+        
+        .lego{
+        width: 18px;
+        height: 18px;
+        }
+        
+        .a2{
+        width: 87px;
+        height: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #16161D;
+        }
+        
+        .telefon{
+            height: 276.377px;
+        }
+        .prvikontejner .velikired  .col-md-3 > div {
+            height: 165px;
+        }
+        .prvikontejner .velikired .col-md-3 > div > img:first-of-type {
+            width: 70%;
+        }
+
+        .kratko{
+            row-gap: 22px;
+        }
+ }
+
+
+
+ 
