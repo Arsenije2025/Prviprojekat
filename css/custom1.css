@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap&family=Sloth&display=swap');
 
 .heder{
 
@@ -198,7 +198,7 @@ text-fill-color: transparent;
   }
 
   .me-tekst{
-   font-family: 'Sloth';
+   font-family: 'Sloth', sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
@@ -303,7 +303,7 @@ text-fill-color: transparent;
 /*DRUGI BLOK*/
 
 .prvikontejner{
-    padding-top: 63px;
+    padding-top: 160px;
     padding-bottom: 94.98px;
 }
 
@@ -319,10 +319,149 @@ text-fill-color: transparent;
     height: 715.02px;
     width: 1245px;
     padding-top: 63px;
-}    
+} 
+
+@media (min-width: 992px) { .krajj{
+    align-content: center;
+    }
+    }
+
+@media (min-width: 992px) { .krajnakolona3{
+    padding-left: 0px;
+    width: 289px;
+    padding-right: 0px;
+    }
+    }
+
+@media (min-width: 992px) { .krajnakolona2{
+    align-content: center;
+    width: 356px;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    }
+
+@media (min-width: 992px) { .krajnakolona{
+    width: 270px;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    }
+
+@media (min-width: 992px) { .zadnjirow{
+    margin-left: 61px;
+    gap: 159px;
+    width: 1233px;
+    }
+    }
+
+@media (min-width: 992px) { .kolona2predzadnjakolona1{
+    width: 134px;
+    }
+    }
+
+@media (min-width: 992px) { .kolonakolona2{
+    width: 554px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    }
+
+@media (min-width: 992px) { .kolonakolona1{
+    width: 494px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    }
+
+@media (min-width: 992px) { .predzadnjirow{
+    margin-left: 61px;
+    gap: 238px;
+    width: 1286px;
+    }
+    }
+
+@media (max-width: 991px) { .drugidioprvitekst1{
+    font-size: 13px;
+    }
+    }
+
+    @media (min-width: 992px) { .drugidioprvitekst1{
+        font-size: 14px;
+        }
+        }
+
+@media (min-width: 992px) { .cetvrtazadnja{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 287.839px;
+    }
+    }
+
+@media (min-width: 992px) { .trecazadnja{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 291.549px;
+    }
+    }
+
+@media (min-width: 992px) { .drugazadnja{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 298.909px;
+    }
+    }
+
+@media (min-width: 992px) { .prvazadnja{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 290.858px;
+    }
+    }
+
+@media (min-width: 992px) { .zadnjired{
+    gap: 27.319px;
+    width: 1251.111px;
+    margin-left: 61px;
+    }
+    }
+
+@media (min-width: 992px) { .meisfor{
+    margin-left: 61px;
+    }
+    }
+
+    @media (min-width: 992px) { .kratko1{
+        width: 395px;
+    padding-right: 0px;
+    padding-left: 0px;
+        }
+        }
+
+        @media (min-width: 992px) { .kratko2{
+            width: 712px;
+    padding-right: 0px;
+    padding-left: 0px;
+            }
+            }
+
+
+    
+
+    @media (min-width: 992px) { .skrozdesno{
+        padding-right: 0px;
+        margin-top: 35px;
+        }
+        }
+
+    @media (min-width: 992px) { .donjired{
+        margin-left: 61px;
+        width: 1244px;
+        }
+        }
 
 .meisfor{
-margin-bottom: 29px;
+margin-bottom: 26px;
 font-family: 'Wix Madefor Display';
 font-style: normal;
 font-weight: 800;
@@ -375,17 +514,17 @@ text-fill-color: transparent;
 .prvikontejner .velikired  .col-md-3 > div {
     overflow: hidden;
     background-size: cover;
-    height: 276px;
+    height: 270px;
     position: relative;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .prvikontejner .velikired  .col-md-3 > div > img:first-of-type {
-    height: auto;
+    
     
     position: absolute;
     right: 0;
     bottom: 0;
-    border-radius: 0px 0px 30px 0px;
+    border-radius: 0px 0px 15px 0px;
     object-fit: cover;
     
 }
@@ -422,6 +561,80 @@ text-fill-color: transparent;
     background-image: url("../img/osmaslikalayer.png");
 }
 
+.red{
+    margin-left: 61px;
+    width: 1244px;
+    gap: 22px;
+}
+
+@media (min-width: 992px) { .kartica{
+    height: 270px;
+    width: 270px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 0 0 auto;
+    }
+    }
+
+    @media (min-width: 992px) { .sirina{
+        width: 370px;
+        }
+        }
+
+        @media (min-width: 992px) { .novi{
+            margin-left: 61px;
+            }
+            }
+
+
+    
+    @media (min-width: 992px) { .velikired{
+        gap: 47px;
+        row-gap: 36px;
+        width: 1221px;
+        margin-left: 61px;
+        }
+        }
+
+        
+        @media (min-width: 992px) { .dugired{
+            padding-left: 0px;
+            }
+            }
+
+            @media (min-width: 992px) { .hed{
+                margin-left: 61px;
+                }
+                }
+
+            @media (min-width: 992px) { .klasa1{
+                margin-left: 61px;
+                width: 1204px;
+                gap: 47px;
+                }
+                }
+
+            @media (min-width: 992px) { .slika5{
+                height: 270px;
+                }
+                }
+        
+
+                @media (min-width: 992px) { .slika6{
+                    height: 269px;
+                    width: 240px;
+                    }
+                    }
+
+                    @media (min-width: 992px) { .slika7{
+                        height: 248px;
+                        }
+                        }
+
+                        @media (min-width: 992px) { .slika8{
+                            height: 239px;
+                            }
+                            }
 
 
 .strijela{
@@ -493,7 +706,7 @@ padding-bottom: 59px;
 }
 
 .klasa1{
-    gap: 69px;
+    gap: 47px;
 }
 
 .klasa{
@@ -583,44 +796,44 @@ padding-left: 4px;
 }
 
 .lopta{
-width: 80px;
-height: 80px;
+width: 55px;
+height: 55px;
 flex-shrink: 0;
 }
 
 .malamunja{
-    height: 85px;
+    height: 100%;
 }
 
 .munja{
-width: 70px;
-height: 85px;
+width: 55px;
+height: 55px;
 flex-shrink: 0;
 stroke-width: 3.205px;
 stroke: #FF9432;
 }
 
 .cojek{
-width: 70px;
-height: 85px;
+width: 55px;
+height: 55px;
 flex-shrink: 0;
 }
 
 .korpa{
-    width: 75px;
-    height: 85px;
+    width: 55px;
+    height: 55px;
     flex-shrink: 0;
 }
 
 .monokl{
-width: 83px;
-height: 83px;
+width: 55px;
+height: 55px;
 flex-shrink: 0;
 }
 
 .stit{
-width: 73px;
-height: 83px;
+width: 55px;
+height: 55px;
 flex-shrink: 0;
 stroke-width: 3.864px;
 stroke: #FF9432;
@@ -725,9 +938,11 @@ display: flex;
     align-items: flex-start;
 }
 
-.kratko{
-    gap: 180px;
-}
+@media (min-width: 992px) {.kratko{
+    width: 1246px;
+    gap: 139px;
+    margin-left: 61px;
+}}
 
 .opetfrejm1{
     height: 126px;
@@ -790,9 +1005,7 @@ line-height: 26px;
     padding-left: 115px;
 }
 
-.red{
-    gap: 6px;
-}
+
 
 .hed{
 padding-bottom: 36px;
@@ -874,7 +1087,8 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 6px;
-padding-top: 7px;
+margin-top: 13px;
+    padding-left: 16px;
 
 }
 
@@ -1237,7 +1451,7 @@ height: 36px;
 align-self: stretch;
 color: #16161D;
 font-family: Lexend;
-font-size: 13px;
+
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -1302,7 +1516,7 @@ background: #F5F5F5;
     display: flex;
     flex-direction: row;
     height: 231px;
-    gap: 138px;
+    gap: 76px;
     padding-top: 70px;
 }
 
@@ -1387,7 +1601,6 @@ letter-spacing: -0.2px;
 } 
 
 .zadnjirow{
-   padding-left: 10px;
    padding-top: 128px;
 }
 
@@ -1478,9 +1691,27 @@ line-height: 18px;
 
     @media (min-width: 992px) { .cetvrtikontejner .red .col-md-3{
         flex: 0 0 auto;
-            width: 33% !important;
+        height: 455px;
+        width: 400px;
+        padding-left: 0;
+        padding-right: 0px;
     }
     }
+
+    @media (max-width: 992px) { .cetvrtikontejner .red .col-md-3{
+        flex: 0 0 auto;
+        width: 33% !important;
+    }
+    }
+
+    @media (max-width: 992px) { .flajer1red{
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    }
+
+
+
 
     @media (min-width: 992px) { .cetvrtikontejner, .trecikontejner, .drugikontejner, .prvikontejner, .heder, .zadnjidiv, .malifuter{
         padding-right: 0;
@@ -1712,7 +1943,7 @@ line-height: 18px;
       }
     
       .me-tekst{
-       font-family: 'Sloth';
+       font-family: 'Sloth', sans-serif;
        font-style: normal;
        font-weight: 400;
        font-size: 14px;
@@ -1866,6 +2097,7 @@ line-height: 18px;
        }
        .klasa1{
         gap: 65px;
+        padding-top: 10px;
        }
        .dvadva{
         gap: 70px;
